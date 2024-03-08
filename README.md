@@ -1,10 +1,14 @@
 # MMM-Dad-Jokes
 
-This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
+This is a module for the [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror/).
 
 Random Dad Jokes... from <https://icanhazdadjoke.com/>
 
 This was a learning exercise with node and MagicMirror² - feel free to do what you want with it.
+
+## Screenshot example
+
+![screenshot](screenshot.png)
 
 ## Installation
 
