@@ -2,7 +2,6 @@
  * MagicMirror²
  * Node Helper: MMM-Dad-Jokes
  *
- * By Eric Chang
  * MIT Licensed
  */
 
