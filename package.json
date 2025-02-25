@@ -1,6 +1,6 @@
 {
   "name": "mmm-dad-jokes",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Random Dad Joke",
   "repository": {
     "type": "git",
@@ -12,15 +12,21 @@
     "dad jokes"
   ],
   "main": "MMM-Dad-Jokes.js",
-  "author": "Eric Chang",
+  "author": "Bruce Schultz",
   "license": "MIT",
   "devDependencies": {
-    "@stylistic/eslint-plugin": "latest",
-    "eslint": "latest",
-    "eslint-plugin-markdownlint": "latest",
-    "jsonc-eslint-parser": "latest",
-    "stylelint": "latest",
-    "stylelint-config-standard": "latest"
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.21.0",
+    "@eslint/json": "^0.10.0",
+    "@eslint/markdown": "^6.2.2",
+    "eslint": "^9.21.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-json": "^4.0.1",
+    "eslint-plugin-n": "^17.15.1",
+    "eslint-plugin-promise": "^7.2.1",
+    "globals": "^16.0.0",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard-scss": "^14.0.0"
   },
   "scripts": {
     "lint": "eslint . && stylelint **/*.css",
