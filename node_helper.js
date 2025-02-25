@@ -9,11 +9,11 @@ const Log = require("logger");
 const NodeHelper = require("node_helper");
 
 module.exports = NodeHelper.create({
-	start () {
+	start() {
 		Log.log("MMM-Dad-Jokes helper started");
 	},
 
-	async getJoke () {
+	async getJoke() {
 		const parent = this; // Save this object
 
 		try {
@@ -24,7 +24,7 @@ module.exports = NodeHelper.create({
 					headers: {
 						Accept: "application/json",
 						"User-Agent":
-				"MMM-Dad-Jokes (https://github.com/brucetony/MMM-Dad-Jokes)"
+							"MMM-Dad-Jokes (https://github.com/brucetony/MMM-Dad-Jokes)"
 					}
 				}
 			);
@@ -38,7 +38,7 @@ module.exports = NodeHelper.create({
 		}
 	},
 
-	socketNotificationReceived (notification, payload) {
+	socketNotificationReceived(notification, payload) {
 		if (notification === "GET_JOKE") {
 			this.getJoke(payload);
 		}

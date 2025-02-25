@@ -13,12 +13,12 @@ Module.register(
 		},
 
 		result: {joke: "Loading dad joke…"},
-		start () {
+		start() {
 			this.getJoke();
 			this.scheduleUpdate();
 		},
 
-		getDom () {
+		getDom() {
 			const wrapper = document.createElement("div");
 			const joke = document.createElement("div");
 			joke.className = "medium";
@@ -31,11 +31,11 @@ Module.register(
 			return wrapper;
 		},
 
-		getJoke () {
+		getJoke() {
 			this.sendSocketNotification("GET_JOKE");
 		},
 
-		scheduleUpdate () {
+		scheduleUpdate() {
 			setInterval(
 				() => {
 					this.getJoke();
@@ -44,7 +44,7 @@ Module.register(
 			);
 		},
 
-		socketNotificationReceived (notification, payload) {
+		socketNotificationReceived(notification, payload) {
 			if (notification === "JOKE_RESULT") {
 				if (
 					this.config.filters.some((term) => payload.joke.toLowerCase().indexOf(term) > -1)

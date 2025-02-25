@@ -1,6 +1,7 @@
 /** @type {import('stylelint').Config} */
 export default {
-    extends: "stylelint-config-standard",
-    "font-family-name-quotes": "double-where-recommended",
-    "block-no-empty": false
+	extends: "stylelint-config-standard",
+	rules: {
+		"font-family-name-quotes": "always-where-recommended",
+	},
 };
