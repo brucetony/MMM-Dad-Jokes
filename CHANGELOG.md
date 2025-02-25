@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.3.0]
+
+Added new configuration options and updated linters
+
+- Can now set `fontSize` and `textAlign` in config
+- Updated linters to also use standard suite of checks
+- Change from spaces to tabs
+- Updated keywords
+
 ## [1.2.0]
 
 Maintenance update - no functional changes.
