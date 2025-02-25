@@ -43,10 +43,10 @@ let config = {
 
 ## Configuration options
 
-| Option         | Description                                                                                  |
-|----------------|----------------------------------------------------------------------------------------------|
-| updateInterval | How often in milliseconds to get a new joke. Defaults to 30 minutes.                         |               
-| fontSize       | Font size of the text expressed using 'px', 'em', or 'rem' as the unit. Defaults to '1.5rem' |
-| textAlign      | Either `left`, `center`, or `right`. Defaults to `center`                                    |
-| fadeSpeed      | How quickly the jokes fade in and out. Defaults to four seconds.                             |
-| filters        | Array of words not to include in jokes.                                                      |
+| Option           | Description                                                                                  |
+|------------------|----------------------------------------------------------------------------------------------|
+| `updateInterval` | How often in milliseconds to get a new joke. Defaults to 30 minutes.                         |               
+| `fontSize`       | Font size of the text expressed using 'px', 'em', or 'rem' as the unit. Defaults to '1.5rem' |
+| `textAlign`      | Either `left`, `center`, or `right`. Defaults to `center`                                    |
+| `fadeSpeed`      | How quickly the jokes fade in and out. Defaults to four seconds.                             |
+| `filters`        | Array of words not to include in jokes.                                                      |
