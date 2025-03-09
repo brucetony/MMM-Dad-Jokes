@@ -1,8 +1,7 @@
 {
   "name": "mmm-dad-jokes",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Random Dad Joke",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/brucetony/MMM-Dad-Jokes"
